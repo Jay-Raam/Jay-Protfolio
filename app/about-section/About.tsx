@@ -25,18 +25,17 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "My passion lies in creating software that solves real-world problems and positively impacts people’s lives."
+                "As a front-end developer at Akkenam Technologies, I find fulfillment and invaluable experiences in the tech industry."
               }
             />
             <AnimatedBody
               text={
-                "Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
+                "Balancing creativity and technical precision, I thrive on crafting user-friendly interfaces that enhance the digital experience. Beyond coding, I enjoy the strategic challenges of chess and the teamwork dynamics of volleyball."
               }
-              className={"hidden"}
             />
             <AnimatedBody
               text={
-                "whether it's diving deep into my favorite anime series, passionately supporting Manchester United, enjoying quality time with friends"
+                "These interests complement my professional journey, enriching my perspective and drive in both personal and professional endeavors."
               }
             />
             <AnimatedBody
@@ -47,6 +46,19 @@ const About = () => {
           </div>
 
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
+            <div className="flex flex-col gap-4 md:gap-3">
+              <AnimatedTitle
+                text={"Experience"}
+                className={
+                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+              <AnimatedBody
+                text={"With one year of Web Development and UI/UX"}
+              />
+            </div>
             <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
                 text={"Frontend Tools"}
@@ -73,7 +85,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "CSS3/SCSS/SASS, Tailwind CSS, Material UI, Framer Motion, Bootstrap."
+                  "CSS3/SCSS/SASS, Tailwind CSS, Material UI, Shadcn UI, Framer Motion, Bootstrap."
                 }
               />
             </div>
@@ -88,7 +100,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Figma, FigJam, Adobe XD, Premiere Pro, Adobe Photoshop, UX Research, UI Design, Prototyping."
+                  "Figma, FigJam, Adobe XD, Sketch, Premiere Pro, Adobe Photoshop, UX Research, UI Design, Prototyping."
                 }
               />
             </div>

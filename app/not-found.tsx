@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div className="flex h-[100vh] flex-col items-center justify-center gap-5 bg-[#0E1016] text-[#e4ded7]">
       <p className="text-[25px] uppercase sm:text-[30px] md:text-[35px] lg:text-[40px]">
-        Ohhh, you don miss road !
+        Ohhh, you miss the road !
       </p>
       <Image
         src="https://user-images.githubusercontent.com/84178696/228884970-66a9687c-b364-48e4-91ca-05332dadbba9.png"

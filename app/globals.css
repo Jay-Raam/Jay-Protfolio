@@ -37,3 +37,14 @@ body {
 body {
   overflow-y: hidden;
 }
+
+::selection {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Change the text selection color for Firefox */
+::-moz-selection {
+  background-color: #fff;
+  color: #000;
+}
