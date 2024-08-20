@@ -44,17 +44,6 @@ const NavBar = () => {
         </h4>
       </Link>
       <Link
-        href="#work"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Work Section"
-      >
-        <h4 className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-          Work
-        </h4>
-      </Link>
-
-      <Link
         href="#about"
         data-blobity-magnetic="false"
         onClick={handleScroll}
@@ -62,6 +51,16 @@ const NavBar = () => {
       >
         <h4 className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
           About
+        </h4>
+      </Link>
+      <Link
+        href="#work"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Work Section"
+      >
+        <h4 className="rounded py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+          Work
         </h4>
       </Link>
 

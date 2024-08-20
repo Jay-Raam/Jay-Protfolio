@@ -45,12 +45,12 @@ export const devProjects = [
   },
   {
     id: 3,
-    name: "Downloader",
+    name: "Pixelplush",
     description:
       "Explore boundless creativity with My gallery website, where every click unveils a world of captivating images and videos, perfect for inspiring your next project.",
     technologies: ["React", "Tailwind css"],
-    github: "https://github.com/Jay-Raam/Image-Download",
-    demo: "https://jay-raam.github.io/Image-Download/",
+    github: "https://github.com/Jay-Raam/PixelPlush",
+    demo: "https://jayasriraampixelplush.vercel.app/unplush",
     image: require(".//../../public/projects/Screen 4.png"),
     available: true,
   },
@@ -63,6 +63,17 @@ export const devProjects = [
     github: "https://github.com/Jay-Raam/Nextjs-Portfolio-shadcn",
     demo: "https://jayasriraam-protfolio.vercel.app/",
     image: require(".//../../public/projects/Screen 5.png"),
+    available: true,
+  },
+  {
+    id: 5,
+    name: "ComponentX",
+    description:
+      "We bring you cutting-edge tools and real-time data to help you navigate the stock market with confidence.",
+    technologies: ["React", "Tailwind css", "Node.Js", "MongoDb" ],
+    github: "https://github.com/Jay-Raam/ComponentX",
+    demo: "https://jayasriraam-componentx.vercel.app/",
+    image: require(".//../../public/projects/Screen 6.png"),
     available: true,
   },
 ];
