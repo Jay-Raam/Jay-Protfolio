@@ -41,8 +41,6 @@ Start the server
 
  You are welcome to use the code or parts of the code for your own site. I encourage you to modify the theme and components to make it your own. The content of this portfolio is personal and represents real projects I’ve worked on.
 
-If you are using the site’s design largely unmodified, please credit me as the designer of the website.
-
 Incase you have any questions or concerns, please feel free to reach out to me on [Instagram.](https://www.instagram.com/_ivanjay_/) I am always happy to help!
 
 
