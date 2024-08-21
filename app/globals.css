@@ -42,6 +42,9 @@ body {
   background-color: #fff;
   color: #000;
 }
+::-webkit-scrollbar {
+  width: 0;
+}
 
 /* Change the text selection color for Firefox */
 ::-moz-selection {

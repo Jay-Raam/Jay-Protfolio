@@ -85,8 +85,8 @@ export const designProjects = [
     description:
       "In this design project for Portfolio",
     technologies: ["UX Research", "UI Design", "Figma"],
-    github: "",
-    demo: "",
+    github: "/",
+    demo: "/",
     image:  require(".//../../public/projects/New post 11.png"),
     available: true,
   },
@@ -96,8 +96,8 @@ export const designProjects = [
     description:
       "In this design project for Consultancy",
     technologies: ["UX Research", "UI Design", "Figma"],
-    github: "",
-    demo: "",
+    github: "/",
+    demo: "/",
     image:  require(".//../../public/projects/New post 12.png"),
     available: true,
   },
@@ -107,8 +107,8 @@ export const designProjects = [
     description:
       "In this design project for Architecture",
     technologies: ["UX Research", "UI Design", "Figma"],
-    github: "",
-    demo: "",
+    github: "/",
+    demo: "/",
     image:
     require(".//../../public/projects/New post 13.png"),
     available: true,
@@ -119,8 +119,8 @@ export const designProjects = [
     description:
       "In this design project for aligners",
     technologies: ["UX Research", "UI Design", "Figma"],
-    github: "",
-    demo: "",
+    github: "/",
+    demo: "/",
     image: require(".//../../public/projects/New post 19.png"),
     available: true,
   },

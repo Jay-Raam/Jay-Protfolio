@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.png";
+import profile from "../../public/m1.png";
 
 const Hero = () => {
   return (
@@ -74,14 +74,14 @@ const Hero = () => {
 
       <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 ">
         <div
-          className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
+          className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
             title="JAYASRIRAAM"
             style="inline-block overflow-hidden pt-1 text-[64px] md:text-[150px] lg:text-[150px] -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
-            className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
+            className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-200px]"
             variants={imageAnimation}
           >
             <Image
@@ -90,7 +90,7 @@ const Hero = () => {
               alt="JAY's headshot"
               data-blobity-tooltip="Remo"
               data-blobity-invert="false"
-              className=" w-[250px] rounded-[16px] grayscale hover:grayscale-0 md:w-[300px] md:rounded-[32px] lg:w-[400px]"
+              className="w-[250px] rounded-[16px] grayscale hover:grayscale-0 md:w-[300px] md:rounded-[32px] lg:w-[500px]"
             />
           </motion.div>
         </div>
