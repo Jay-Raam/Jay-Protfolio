@@ -27,8 +27,8 @@ export const devProjects = [
     description:
       "Discover the future of weather tracking with MY visually captivating app, blending precision data with intuitive design for aN unparalleled user experience",
     technologies: ["Next", "Tailwind css", "Shadcn UI"],
-    github: "https://github.com/Jay-Raam/Nextjs-Weather-example",
-    demo: "https://jayasriraam-weather.vercel.app/",
+    github: "https://github.com/Jay-Raam/Weather-Next.Js",
+    demo: "https://weather-next-js-jayasriraam.vercel.app/",
     image: require(".//../../public/projects/Screen 2.png"),
     available: true,
   },
@@ -74,6 +74,17 @@ export const devProjects = [
     github: "https://github.com/Jay-Raam/ComponentX",
     demo: "https://jayasriraam-componentx.vercel.app/",
     image: require(".//../../public/projects/Screen 6.png"),
+    available: true,
+  },
+  {
+    id: 6,
+    name: "Cinephile",
+    description:
+      " They remind us of the power of love and the boundless possibilities of imagination. Whether you’re looking to experience the highs and lows of romance or to escape to a world of magic and wonder",
+    technologies: ["React", "Tailwind css", "Node.Js", "MongoDb" ],
+    github: "https://github.com/Jay-Raam/Cinephile",
+    demo: "https://cinephile-jay.vercel.app/",
+    image: require(".//../../public/projects/Screen 7.png"),
     available: true,
   },
 ];
