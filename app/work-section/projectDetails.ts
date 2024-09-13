@@ -87,6 +87,28 @@ export const devProjects = [
     image: require(".//../../public/projects/Screen 7.png"),
     available: true,
   },
+  {
+    id: 7,
+    name: "VolleyY",
+    description:
+      "If you're ready to break through your limits and experience the next level of athletic excellence, you’ve come to the right place.",
+    technologies: ["Next.Js", "Tailwind css", "Node.Js", "MongoDb"],
+    github: "https://github.com/Jay-Raam/VolleyY",
+    demo: "https://volleyy-frontend.vercel.app/",
+    image: require(".//../../public/projects/Screen 9.png"),
+    available: true,
+  },
+  {
+    id: 8,
+    name: "Narratiq",
+    description:
+      "Narratiq, we believe that every book opens a door to a new world, and we're here to help you find the keys. ",
+    technologies: ["React", "Tailwind css", "Node.Js", "MongoDb"],
+    github: "https://github.com/Jay-Raam/Narratiq",
+    demo: "https://narratiq.vercel.app/",
+    image: require(".//../../public/projects/Screen 8.png"),
+    available: true,
+  },
 ];
 
 export const designProjects = [
