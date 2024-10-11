@@ -32,5 +32,31 @@ export const blogDetails = [
     url: "https://jayasriraam.blogspot.com/2024/02/blog-post.html",
     available: true,
   },
-
+  {
+    title:
+      "முதல் சந்திப்பு",
+    image:
+      require(".//../../public/blog4.png"),
+    date: "Oct 2024",
+    url: "https://jayasriraam.blogspot.com/2024/09/blog-post.html",
+    available: true,
+  },
+  {
+    title:
+      "காதல் - ஒரு இன்ப சுற்றுலா",
+    image:
+      require(".//../../public/blog5.png"),
+    date: "Oct 2024",
+    url: "https://jayasriraam.blogspot.com/2024/10/blog-post.html",
+    available: true,
+  },
+  {
+    title:
+      "AOS - Animation Library",
+    image:
+      require(".//../../public/image6.webp"),
+    date: "Oct 2024",
+    url: "https://jayasriraam.blogspot.com/2024/10/aos-animate-on-scroll-library.html",
+    available: true,
+  },
 ];
