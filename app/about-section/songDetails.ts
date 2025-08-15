@@ -19,12 +19,6 @@ export const songs = [
     link: "https://www.jiosaavn.com/song/aathangara-marame-from-kizhakku-cheemayile/BQwHaUBBUUY",
   },
   {
-    title: "Nilave Vaa",
-    artist: "Unknown",
-    image: require(".//../../public/songs/1.jpg"),
-    link: "https://www.jiosaavn.com/song/nilaave-vaa/GBw4Q0JVX0I",
-  },
-  {
     title: "Machaan Machaan",
     artist: "Unknown",
     image: require(".//../../public/songs/5.jpg"),
