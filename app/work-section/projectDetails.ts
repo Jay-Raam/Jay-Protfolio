@@ -9,107 +9,111 @@ export type ProjectProps = {
   available: boolean;
 };
 
+// .//../../public/projects/Screen 1.png
+
 export const devProjects = [
   {
     id: 0,
-    name: "Dashboard",
+    name: "AKB – Mobile",
     description:
-      "I built a modern dashboard using Next.js, Tailwind CSS, and Shadcn UI. It features responsive design, sleek user interface components, and seamless integration for a smooth user experience.",
-    technologies: ["Next", "Tailwind CSS", "Shadcn UI"],
-    github: "https://github.com/Jay-Raam/Dashboard-Nextjs",
-    demo: "https://dashboard-nextjs-jayasriraam.vercel.app/",
-    image: require(".//../../public/projects/Screen 1.png"),
+      "A cross-platform devotional app delivering religious schedules. Push notifications keep users connected to rituals and festivals in real-time.",
+    technologies: ["Ionic", "Capacitor", "Redux", "Firebase"],
+    github: "#", // Add if available
+    demo: "#", // Add live link if available
+    image: require(".//../../public/projects/AKB.png"),
     available: true,
   },
   {
     id: 1,
-    name: "Weather",
+    name: "AKB – Web",
     description:
-      "Discover the future of weather tracking with MY visually captivating app, blending precision data with intuitive design for aN unparalleled user experience",
-    technologies: ["Next", "Tailwind css", "Shadcn UI"],
-    github: "https://github.com/Jay-Raam/Weather-Next.Js",
-    demo: "https://weather-next-js-jayasriraam.vercel.app/",
-    image: require(".//../../public/projects/Screen 2.png"),
+      "An admin dashboard for managing devotional content, schedules, and push notifications. Features role-based access control for Admin, User, and Volunteer roles.",
+    technologies: ["React.js", "Redux", "Firebase", "Chart.js"],
+    github: "#",
+    demo: "#",
+    image: require(".//../../public/projects/AKB.png"),
     available: true,
   },
   {
     id: 2,
-    name: "Marvel",
+    name: "Cenpoilt – Mobile",
     description:
-      "Discover your favorite Marvel heroes and comics in a universe where epic battles and extraordinary powers collide. Join us to uncover the secrets and legends that define the Marvel Universe!",
-    technologies: ["React", "Tailwind CSS"],
-    github: "https://github.com/Jay-Raam/Marvel",
-    demo: "https://marvel-jayasriraam.vercel.app",
-    image: require(".//../../public/projects/Screen 3.png"),
+      "IoT-based mobile app for real-time monitoring and control of water distribution systems.",
+    technologies: ["Ionic", "Capacitor", "Firebase", "MQTT"],
+    github: "#",
+    demo: "#",
+    image: require(".//../../public/projects/cenpilot.png"),
     available: true,
   },
   {
     id: 3,
-    name: "Pixelplush",
+    name: "Cenpoilt – Web",
     description:
-      "Explore boundless creativity with My gallery website, where every click unveils a world of captivating images and videos, perfect for inspiring your next project.",
-    technologies: ["React", "Tailwind css"],
-    github: "https://github.com/Jay-Raam/PixelPlush",
-    demo: "https://jayasriraampixelplush.vercel.app/unplush",
-    image: require(".//../../public/projects/Screen 4.png"),
+      "Centralized dashboard for managing IoT-enabled water distribution devices. Supports device registration, monitoring, and role-based user access.",
+    technologies: ["React.js", "Redux", "Firebase", "Chart.js"],
+    github: "#",
+    demo: "#",
+    image: require(".//../../public/projects/cenpilot.png"),
     available: true,
   },
   {
     id: 4,
-    name: "Portfolio",
+    name: "Tiaano ERP",
     description:
-      "Your digital charisma with a mind-bending portfolio website that merges creativity with functionality, leaving visitors awestruck and eager for more.",
-    technologies: ["Next", "Tailwind css", "Shadcn UI"],
-    github: "https://github.com/Jay-Raam/Nextjs-Portfolio-shadcn",
-    demo: "https://jayasriraam-protfolio.vercel.app/",
-    image: require(".//../../public/projects/Screen 5.png"),
-    available: true,
-  },
-  {
-    id: 5,
-    name: "ComponentX",
-    description:
-      "We bring you cutting-edge tools and real-time data to help you navigate the stock market with confidence.",
-    technologies: ["React", "Tailwind css", "Node.Js", "MongoDb" ],
-    github: "https://github.com/Jay-Raam/ComponentX",
-    demo: "https://jayasriraam-componentx.vercel.app/",
-    image: require(".//../../public/projects/Screen 6.png"),
-    available: true,
-  },
-  {
-    id: 6,
-    name: "Cinephile",
-    description:
-      " They remind us of the power of love and the boundless possibilities of imagination. Whether you’re looking to experience the highs and lows of romance or to escape to a world of magic and wonder",
-    technologies: ["React", "Tailwind css", "Node.Js", "MongoDb" ],
-    github: "https://github.com/Jay-Raam/Cinephile",
-    demo: "https://cinephile-jay.vercel.app/",
-    image: require(".//../../public/projects/Screen 7.png"),
+      "A scalable ERP web app for manufacturing operations with modules for inventory management, production tracking, and sales/purchase workflows.",
+    technologies: ["React.js","Tailwind", "Firebase", "Chart.js"],
+    github: "#",
+    demo: "#",
+    image: require(".//../../public/projects/tiaano.png"),
     available: true,
   },
   {
     id: 7,
-    name: "VolleyY",
+    name: "Siligreen",
     description:
-      "If you're ready to break through your limits and experience the next level of athletic excellence, you’ve come to the right place.",
-    technologies: ["Next.Js", "Tailwind css", "Node.Js", "MongoDb"],
-    github: "https://github.com/Jay-Raam/VolleyY",
-    demo: "https://volleyy-frontend.vercel.app/",
-    image: require(".//../../public/projects/Screen 9.png"),
+      "A slick mobile app for live monitoring and controlling IoT systems via a custom online setup.",
+    technologies: ["Ionic", "Capacitor", "Redux", "REST API"],
+    github: "#", // Add if available
+    demo: "#", // Add if available
+    image: require(".//../../public/projects/siligreen.png"),
     available: true,
   },
   {
     id: 8,
-    name: "Narratiq",
+    name: "Nayagi",
     description:
-      "Narratiq, we believe that every book opens a door to a new world, and we're here to help you find the keys. ",
-    technologies: ["React", "Tailwind css", "Node.Js", "MongoDb"],
-    github: "https://github.com/Jay-Raam/Narratiq",
-    demo: "https://narratiq.vercel.app/",
-    image: require(".//../../public/projects/Screen 8.png"),
+      "An admin front-end for Nayagi powerful server portal. Crafted to manage dynamic web app content—CMS, user access, and more—ensuring admins stay in control with ease and style.",
+    technologies: ["React.js", "chaRt.js","Redux",  "Firebase"], 
+    github: "#",
+    demo: "#",
+    image: require(".//../../public/projects/Nayagi.png"),
     available: true,
   },
+  {
+    id: 5,
+    name: "MySmartAlign",
+    description:
+      "A responsive and SEO-friendly website for a dental aligner brand, ensuring mobile-first design and cross-browser compatibility.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    github: "#",
+    demo: "#",
+    image: require(".//../../public/projects/mysmartalign.png"),
+    available: true,
+  },
+  {
+    id: 6,
+    name: "Vipani ERP",
+    description:
+      "Customizable ERP for SMEs in manufacturing, retail, and distribution. Features multiuser process management, inventory, and workflow tracking.",
+    technologies: ["React.js", "Tailwind", "MongoDB", "Node.js"],
+    github: "#",
+    demo: "#",
+    image: require(".//../../public/projects/VIPANI.png"),
+    available: true,
+  },
+
 ];
+
 
 export const designProjects = [
   {

@@ -43,10 +43,10 @@ const About = () => {
                 "I’m not just writing code — I’m shaping interactions, one pixel and prop at a time."
               }
             />
-<AnimatedBody
-  text="நானும் திசை காட்டி தான் திசைகாட்டிகள் ஊர் போய் சேர்வதில்லை..."
- className="text-center"
-/>
+            <AnimatedBody
+              text="நானும் திசை காட்டி தான் திசைகாட்டிகள் ஊர் போய் சேர்வதில்லை..."
+              className="text-center"
+            />
           </div>
 
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
