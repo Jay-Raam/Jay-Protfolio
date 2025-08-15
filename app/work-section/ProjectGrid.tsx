@@ -9,17 +9,15 @@ const ProjectGrid = () => {
     <>
       {/* <div className="mb-10 flex gap-16 text-[#e4ded7] md:mb-16  lg:mb-20 ">
         <h4
-          className={`text-[16px] md:text-[20px] lg:text-[24px] ${
-            filter ? "text-[#e4ded7]" : "text-[#e4ded7]/30"
-          }`}
+          className={`text-[16px] md:text-[20px] lg:text-[24px] ${filter ? "text-[#e4ded7]" : "text-[#e4ded7]/30"
+            }`}
           onClick={() => setFilter(true)}
         >
           Development
         </h4>
         <h4
-          className={`text-[16px] md:text-[20px] lg:text-[24px] ${
-            filter ? "text-[#e4ded7]/30" : "text-[#e4ded7]"
-          }`}
+          className={`text-[16px] md:text-[20px] lg:text-[24px] ${filter ? "text-[#e4ded7]/30" : "text-[#e4ded7]"
+            }`}
           onClick={() => setFilter(false)}
         >
           Design

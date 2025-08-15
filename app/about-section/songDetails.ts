@@ -49,10 +49,10 @@ export const songs = [
     link: "https://www.jiosaavn.com/song/pogadhe/PwQuUzhFBFg",
   },
   {
-    title: "Kettal Kodukkira",
+    title: "Kattabomma Oorenakku",
     artist: "Unknown",
-    image: require(".//../../public/songs/10.jpg"),
-    link: "https://www.jiosaavn.com/song/kettal-kodukkira/FiMAexZTA1Q",
+    image: require(".//../../public/songs/102.jpg"),
+    link: "https://www.jiosaavn.com/song/kattabomma-oorenakku/ST0xAB96U0A",
   },
   {
     title: "Love Pannu (Oru Punnagai Poove)",

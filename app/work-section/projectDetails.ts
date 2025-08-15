@@ -116,49 +116,47 @@ export const devProjects = [
 
 
 export const designProjects = [
-  {
+{
     id: 1,
-    name: "Portfolio",
+    name: "PPV Technology Private Limited",
     description:
-      "In this design project for Portfolio",
-    technologies: ["UX Research", "UI Design", "Figma"],
-    github: "/",
-    demo: "/",
-    image:  require(".//../../public/projects/New post 11.png"),
+      "Junior Software Developer (Nov 2024 – Present) in Chennai, working on devotional, IoT, and ERP projects with a focus on UI/UX, performance optimization, and real-time data delivery.",
+    technologies: [
+      "React.js",
+      "Ionic",
+      "Capacitor",
+      "Redux",
+      "SCSS",
+      "Firebase",
+      "REST API",
+      "MQTT",
+      "Chart.js"
+    ],
+    github: "https://ppvgroups.com/",
+    demo: "https://ppvgroups.com/",
+    image: require(".//../../public/company2.png"),
     available: true,
   },
   {
     id: 2,
-    name: "Consultancy",
+    name: "Akkenam Technologies",
     description:
-      "In this design project for Consultancy",
-    technologies: ["UX Research", "UI Design", "Figma"],
-    github: "/",
-    demo: "/",
-    image:  require(".//../../public/projects/New post 12.png"),
-    available: true,
-  },
-  {
-    id: 3,
-    name: "Architecture",
-    description:
-      "In this design project for Architecture",
-    technologies: ["UX Research", "UI Design", "Figma"],
-    github: "/",
-    demo: "/",
-    image:
-    require(".//../../public/projects/New post 13.png"),
-    available: true,
-  },
-  {
-    id: 4,
-    name: "Aligners",
-    description:
-      "In this design project for aligners",
-    technologies: ["UX Research", "UI Design", "Figma"],
-    github: "/",
-    demo: "/",
-    image: require(".//../../public/projects/New post 19.png"),
+      "Junior Developer (May 2023 – Nov 2024) in Dindigul, building ERP solutions and responsive websites, optimizing performance, scalability, and user experience.",
+    technologies: [
+      "React.js",
+      "Redux",
+      "Tailwind CSS",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    github: "https://www.akkenamtechnologies.com/",
+    demo: "https://www.akkenamtechnologies.com/",
+    image: require(".//../../public/akkenam_symbol.jpg"),
     available: true,
   },
 ];

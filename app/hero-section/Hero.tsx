@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://www.behance.net/gallery/207850723/Resume"
+            href={"https://www.behance.net/gallery/232598829/Resume"}
             target="_blank"
             aria-label="View Resume"
           >
@@ -106,7 +106,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-          Always Frontend Developer, in   
+            Always Frontend Developer, in
             <Link
               href="https://www.akkenamtechnologies.com/"
               target="_blank"
