@@ -25,24 +25,6 @@ export const songs = [
     link: "https://www.jiosaavn.com/song/nilaave-vaa/GBw4Q0JVX0I",
   },
   {
-    title: "Nilavu Thungum Neram",
-    artist: "Unknown",
-    image: require(".//../../public/songs/2.jpg"),
-    link: "https://www.jiosaavn.com/song/nilavu-thoongum-neram-duet/Ogc4SDhbYFU",
-  },
-  {
-    title: "Kanne Kalaimaane",
-    artist: "Unknown",
-    image: require(".//../../public/songs/3.jpg"),
-    link: "https://www.jiosaavn.com/song/kanne-kalaimaane/BwdTeBMAfGs",
-  },
-  {
-    title: "Ilaya Nila",
-    artist: "Unknown",
-    image: require(".//../../public/songs/4.jpg"),
-    link: "https://www.jiosaavn.com/song/ilaya-nila/JiJTRTZZYXo",
-  },
-  {
     title: "Machaan Machaan",
     artist: "Unknown",
     image: require(".//../../public/songs/5.jpg"),
