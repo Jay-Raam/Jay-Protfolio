@@ -52,11 +52,11 @@ export const blogDetails = [
   },
   {
     title:
-      "AOS - Animation Library",
+      "காத்திருப்பு",
     image:
       require(".//../../public/image6.webp"),
-    date: "Oct 2024",
-    url: "https://jayasriraam.blogspot.com/2024/10/aos-animate-on-scroll-library.html",
+    date: "Aug 2025",
+    url: "https://jayasriraam.blogspot.com/2025/08/blog-post.html",
     available: true,
   },
 ];

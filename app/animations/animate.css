@@ -75,6 +75,97 @@
   }
 }
 
+@keyframes marquee-reverse {
+  0% {
+    left: -550%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+.animate-reverse {
+  animation: marquee-reverse 20s linear infinite;
+  transform: translate(0, -50%);
+}
+
+.animate-reverse:hover {
+  animation-play-state: paused;
+}
+
+/* Small screen */
+@screen sm {
+  @keyframes marquee-reverse {
+    0% {
+      left: -340%;
+    }
+
+    100% {
+      left: 0;
+    }
+  }
+
+  .animate-reverse {
+    animation: marquee-reverse 20s linear infinite;
+    transform: translate(0, -50%);
+  }
+}
+
+/* Medium screen */
+@screen md {
+  @keyframes marquee-reverse {
+    0% {
+      left: -355%;
+    }
+
+    100% {
+      left: 0;
+    }
+  }
+
+  .animate-reverse {
+    animation: marquee-reverse 20s linear infinite;
+    transform: translate(0, -50%);
+  }
+}
+
+/* Large screen */
+@screen lg {
+  @keyframes marquee-reverse {
+    0% {
+      left: -300%;
+    }
+
+    100% {
+      left: 0;
+    }
+  }
+
+  .animate-reverse {
+    animation: marquee-reverse 20s linear infinite;
+    transform: translate(0, -50%);
+  }
+}
+
+/* Extra large screen */
+@screen xl {
+  @keyframes marquee-reverse {
+    0% {
+      left: -200%;
+    }
+
+    100% {
+      left: 0;
+    }
+  }
+
+  .animate-reverse {
+    animation: marquee-reverse 20s linear infinite;
+    transform: translate(0, -50%);
+  }
+}
+
 .rotate {
   animation: rotation 1s infinite linear;
 }

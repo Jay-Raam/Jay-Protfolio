@@ -1,4 +1,5 @@
 import SongCarousel from "./SongCarousel";
+import SongCarousel2 from "./SongCarousel2";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
@@ -123,13 +124,16 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
+      </div>
+      <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
+        <div className="h-[500px] w-full">
           <SongCarousel />
-          <AnimatedBody
-            text="A few songs I can recommend if you're looking for some fresh tunes :)"
-            className="absolute bottom-2 right-0 left-0 mx-auto w-[90%] text-center text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[500px] md:bottom-12 md:w-[550px] md:text-[16px] "
-          />
+          <SongCarousel2 />
         </div>
+        <AnimatedBody
+          text="A few songs I can recommend if you're looking for some fresh tunes :)"
+          className=" mx-auto w-[90%] text-center text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[500px] md:bottom-12 md:w-[550px] md:text-[16px] "
+        />
       </div>
     </section>
   );
