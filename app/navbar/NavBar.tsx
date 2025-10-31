@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faFilePdf, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
@@ -19,19 +19,22 @@ const NavBar = () => {
 
   return (
     <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
+
+      {/* --- Email Icon --- */}
       <Link
-        href="https://www.behance.net/gallery/232598829/Resume"
+        href="mailto:jayasriraam.job@gmail.com"
         target="_blank"
         className="flex"
-        aria-label="Open my resume"
-        data-blobity-tooltip="View Resume"
+        aria-label="Send me an email"
+        data-blobity-tooltip="Contact Me ✉️"
         data-blobity-magnetic="false"
       >
         <FontAwesomeIcon
-          icon={faFilePdf}
-          className="py-2 px-2 text-[16px] sm:px-4 md:py-1"
+          icon={faEnvelope}
+          className="text-[#f0e9da] py-2 px-2 text-[18px] sm:px-4 md:py-1 transition-transform duration-200 hover:scale-110 hover:text-[#ffd27f]"
         />
       </Link>
+
 
       <Link
         href="#home"

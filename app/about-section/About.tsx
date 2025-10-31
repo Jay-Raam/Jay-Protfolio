@@ -26,7 +26,7 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "A frontend developer with a passion for building smooth, intuitive digital experiences. Over the past 2 years, I’ve worked across web and mobile platforms using React, Next.js, Ionic, and Capacitor, turning ideas into interfaces that work beautifully."
+                "A frontend developer with a passion for building smooth, intuitive digital experiences. Over the past 2+ years, I’ve worked across web and mobile platforms using React, Next.js, Ionic, and Capacitor, turning ideas into interfaces that work beautifully."
               }
             />
             <AnimatedBody

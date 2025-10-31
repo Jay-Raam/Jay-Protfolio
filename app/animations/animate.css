@@ -6,6 +6,7 @@
     left: -550%;
   }
 }
+
 .animate {
   animation: marquee 20s linear infinite;
   transform: translate(0, -50%);

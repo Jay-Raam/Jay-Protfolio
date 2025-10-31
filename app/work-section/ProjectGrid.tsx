@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { devProjects, designProjects, ProjectProps } from "./projectDetails";
+import { devProjects, designProjects } from "./projectDetails";
 import { useState } from "react";
 
 const ProjectGrid = () => {
@@ -26,7 +26,7 @@ const ProjectGrid = () => {
 
       {filter ? (
         <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-10 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
-          {devProjects.map((project: ProjectProps) => (
+          {devProjects.map((project: any) => (
             <ProjectCard
               id={project.id}
               key={project.id}
@@ -36,21 +36,25 @@ const ProjectGrid = () => {
               github={project.github}
               demo={project.demo}
               image={project.image}
+              company={project.company}
+              roles={project.roles}
               available={project.available}
             />
           ))}
         </div>
       ) : (
         <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-6 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
-          {designProjects.map((project: ProjectProps) => (
+          {designProjects.map((project: any) => (
             <ProjectCard
               id={project.id}
               key={project.id}
               name={project.name}
+              roles={project.roles}
               description={project.description}
               technologies={project.technologies}
               github={project.github}
               demo={project.demo}
+              company={project.company}
               image={project.image}
               available={project.available}
             />

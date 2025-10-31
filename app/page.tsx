@@ -9,6 +9,7 @@ import NavBar from "./navbar/NavBar";
 
 import dynamic from "next/dynamic";
 const Work = dynamic(() => import("./work-section/Work"));
+const Experience = dynamic(() => import("./Experience/Experience"));
 const About = dynamic(() => import("./about-section/About"));
 const Blog = dynamic(() => import("./blog-section/BlogGrid"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
@@ -40,6 +41,7 @@ export default function Home() {
       {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
+        <Experience />
         <Work />
         <About />
         <Blog />

@@ -16,21 +16,7 @@ const Hero = () => {
     >
       <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color"></motion.div>
 
-      <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
-        <div>
-          <Link
-            href={"https://www.behance.net/gallery/232598829/Resume"}
-            target="_blank"
-            aria-label="View Resume"
-          >
-            <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
-              variants={bodyAnimation}
-            >
-              VIEW RESUME
-            </motion.button>
-          </Link>
-        </div>
+      <div className="absolute top-10 flex justify-end sm:w-[90%] lg:max-w-[1440px]">
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
@@ -105,16 +91,16 @@ const Hero = () => {
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Always Frontend Developer, in
-            <Link
+          <p className="z-50 text-center text-[16px] font-semibold text-[#e4ded7] md:text-[20px] lg:text-left">
+            என் சிறுபொழுது நாயகியே
+            {/* <Link
               href="https://www.akkenamtechnologies.com/"
               target="_blank"
               className="ml-1 underline underline-offset-2 hover:no-underline"
               aria-label="Mono Website"
             >
               Akkenam.
-            </Link>
+            </Link> */}
           </p>
         </motion.div>
 
@@ -123,7 +109,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences.
+            நீ இன்றி ஏதும் சிறப்பிப்பதில்லை
           </p>
         </motion.div>
       </div>
