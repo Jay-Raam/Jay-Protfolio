@@ -163,7 +163,7 @@ export const devProjects = [
     ],
     github: "#",
     demo: "#",
-    image: require("../../public/projects/nayagi.png"),
+    image: require("../../public/projects/Nayagi.png"),
     available: true,
   },
   {
@@ -240,7 +240,7 @@ export const devProjects = [
     ],
     github: "#",
     demo: "#",
-    image: require("../../public/projects/vipani.png"),
+    image: require("../../public/projects/VIPANI.png"),
     available: true,
   },
   {
