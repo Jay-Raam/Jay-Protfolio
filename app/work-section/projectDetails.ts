@@ -188,7 +188,7 @@ export const devProjects = [
     ],
     github: "#",
     demo: "#",
-    image: require("../../public/projects/ppverp.webp"),
+    image: require("../../public/projects/logoInvoice.png"),
     available: true,
   },
   {
