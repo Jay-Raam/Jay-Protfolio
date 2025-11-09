@@ -188,7 +188,7 @@ export const devProjects = [
     ],
     github: "#",
     demo: "#",
-    image: require("../../public/projects/logoInvoice.png"),
+    image: require("../../public/projects/LOGO-01.svg"),
     available: true,
   },
   {
@@ -213,7 +213,7 @@ export const devProjects = [
   ],
   github: "#",
   demo: "#",
-  image: require("../../public/projects/siligreen.webp"),
+  image: require("../../public/projects/sili.png"),
   available: true,
 },
 
