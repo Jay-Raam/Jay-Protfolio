@@ -141,9 +141,9 @@ export const devProjects = [
     image: require("../../public/projects/tiaano.png"),
     available: true,
   },
-    {
+  {
     id: 6,
-    name: "Nayagi – Admin Web",
+    name: "Nayagi – E-commerce & Admin Platform",
      company: "PPV Technology Pvt Ltd",
     description:
       "A powerful admin interface built for managing product, logistics, production, and finance data. Designed for enterprise users, this app ensures efficient data management with a modular structure and REST API communication architecture.",
@@ -215,53 +215,115 @@ export const devProjects = [
   demo: "#",
   image: require("../../public/projects/sili.png"),
   available: true,
+  },
+{
+  id: 6,
+  name: "Paarambhariya – E-commerce & Admin Platform",
+  company: "PPV Technology Pvt Ltd",
+  description:
+    "A full-scale e-commerce and enterprise admin platform built for Paarambhariya, covering the entire business lifecycle — from storefront and order management to production, logistics, finance, and analytics. Designed for enterprise users with role-based access control, modular architecture, and a high-performance React.js frontend powered by Zustand state management and REST API integration.",
+  technologies: [
+    "React.js",
+    "Tailwind CSS",
+    "Zustand",
+    "Chart.js",
+    "REST API",
+    "Axios",
+  ],
+  roles: [
+    // --- Frontend (4 points) ---
+    "Engineered a modular, scalable frontend using React.js and Tailwind CSS across production modules.",
+    "Architected a reusable component library with React.js and Tailwind CSS, standardizing design patterns and UI interactions across all modules — significantly reducing development overhead for new feature additions.",
+    "Implemented Zustand for lightweight, scalable client-side state management — streamlining cross-module data flow, minimizing unnecessary re-renders, and maintaining predictable state across complex admin workflows.",
+
+    // --- Data & Performance (2 points) ---
+    "Built dynamic analytics dashboards using Chart.js to visualize sales trends, production metrics, logistics performance, and finance summaries — enabling data-driven decision-making for enterprise admin users.",
+    "Executed a frontend performance overhaul via code splitting, route-based lazy loading, and Axios-level request caching — achieving a 40% improvement in API response times and significantly faster page load across modules.",
+
+    // --- Access & Features (2 points) ---
+    "Implemented role-based access control (RBAC) on the frontend, enforcing granular permission boundaries across admin, manager, and staff roles — restricting module visibility and action capabilities per user type.",
+    "Developed file upload and export functionality across Product, Finance, and Reports modules — supporting bulk data imports, invoice generation, and CSV/Excel exports for enterprise-level data management workflows.",
+  ],
+  github: "#",
+  demo: "#",
+  image: require("../../public/projects/parambariya.svg"),
+  available: true,
 },
 
-  {
-    id: 5,
-    company: "Akkenam Technology",
-    name: "Vipani ERP",
-    description:
-      "An enterprise resource planning platform tailored for small and medium-sized businesses. Supports offline data sync, multi-user role access, and live workflow tracking. Combines a modern React frontend with a Node.js + MongoDB backend for reliability and scale.",
-    technologies: [
-      "React.js",
-      "Redux",
-      "Tailwind CSS",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-    ],
-    roles: [
-      "Built ERP modules for sales, purchase, inventory, and employee management.",
-      "Integrated Express REST APIs and MongoDB for secure data storage and retrieval.",
-      "Enhanced user experience with route-based chunking and lazy loading.",
-      "Collaborated on REST schema design for backend integration and data validation.",
-      "Increased workflow efficiency by 35% via real-time dashboards and UI performance tweaks.",
-    ],
-    github: "#",
-    demo: "#",
-    image: require("../../public/projects/VIPANI.png"),
-    available: true,
-  },
-  {
-    id: 7,
-    name: "MySmartAlign",
-    company: "Akkenam Technology",
-    description:
-      "A clean, SEO-optimized website for a dental aligner brand designed to enhance visibility and user engagement. Focused on fast loading, accessible design, and strong mobile responsiveness to drive conversions for their clear aligner products.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    roles: [
-      "Developed mobile-first responsive layouts ensuring accessibility and SEO readiness.",
-      "Optimized HTML and asset loading for a 20% improvement in page speed.",
-      "Integrated on-page SEO techniques including meta tagging and structured markup.",
-      "Implemented smooth scroll animations and component-based layout structure.",
-      "Ensured cross-browser compatibility for Chrome, Safari, and Edge.",
-    ],
-    github: "#",
-    demo: "#",
-    image: require("../../public/projects/mysmartalign.png"),
-    available: true,
-  },
+{
+  id: 5,
+  company: "Akkenam Technology",
+  name: "Vipani ERP",
+  description:
+    "A full-scale enterprise resource planning platform built for small and medium-sized businesses, encompassing 12 production modules — Inventory, HR, Payroll, Finance, CRM, Purchase, Sales, Reports, Settings, User Management, Appointments, and Production. Features real-time collaboration, role-based access control, and a high-performance backend powered by Node.js, GraphQL Yoga, MongoDB, and Redis.",
+  technologies: [
+    "React.js",
+    "Next.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "GraphQL Yoga",
+    "MongoDB",
+    "Redis",
+    "Socket.io",
+    "JWT",
+  ],
+  roles: [
+    // --- Backend (6 points) ---
+    "Engineered a full-scale ERP backend using Node.js, Express.js, and GraphQL Yoga — designing modular resolvers and schema definitions across 12 production modules including Inventory, HR, Payroll, Finance, CRM, Purchase, Sales, Reports, Appointments, and Production.",
+    "Implemented JWT-based authentication with refresh token rotation and granular role-based access control (RBAC), securing all API endpoints and enforcing permission boundaries across User Management and Settings modules for multi-user ERP workflows.",
+    "Integrated GraphQL subscriptions and Socket.io to deliver real-time bidirectional updates across live Sales, CRM, and Production workflow dashboards — enabling instant data propagation across concurrent user sessions.",
+    "Deployed Redis for session management and query-level caching across high-traffic modules (Inventory, Sales, Reports), combined with MongoDB indexing and aggregation pipeline optimization — achieving 35–40% improvement in overall API response times.",
+    "Architected MongoDB schemas for complex relational data structures across Payroll, Finance, Purchase, and HR modules — writing optimized aggregation pipelines to handle large-scale transactional and analytical queries.",
+    "Built Express.js middleware layers for centralized request validation, structured error handling, and audit logging — ensuring API consistency, traceability, and reliability across all 12 ERP service endpoints.",
+
+    // --- Frontend (1 point) ---
+    "Developed a responsive, modular ERP frontend using React.js and Next.js with Tailwind CSS, integrating GraphQL APIs via Apollo Client for seamless data flow across all 12 production modules.",
+  ],
+  github: "#",
+  demo: "#",
+  image: require("../../public/projects/VIPANI.png"),
+  available: true,
+},
+{
+  id: 7,
+  name: "MySmartAlign",
+  company: "Akkenam Technology",
+  description:
+    "A full-scale dental ecosystem platform covering the entire dental business lifecycle — from patient-facing website and appointment booking to clinic admin dashboards, mobile apps for patients and doctors, treatment progress tracking, and internal ERP modules including Sales, Purchase, HR, and Inventory. Built with a high-performance Next.js frontend and a robust Node.js + GraphQL Yoga + MongoDB backend, with real-time updates via Socket.io and Firebase push notifications.",
+  technologies: [
+    "Next.js",
+    "React.js",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "GraphQL Yoga",
+    "MongoDB",
+    "Redis",
+    "Socket.io",
+    "JWT",
+    "Firebase",
+  ],
+  roles: [
+    // --- Backend (5 points) ---
+    "Architected a multi-service backend using Node.js, Express.js, and GraphQL Yoga to power a full dental ecosystem.",
+    "Implemented JWT-based authentication with role-based access control (RBAC) across patient, doctor, clinic admin, and internal staff roles — securing all API endpoints and enforcing strict permission boundaries per user type.",
+    "Integrated Socket.io for real-time bidirectional communication across appointment status updates, treatment progress notifications, and live admin dashboard data — ensuring instant sync across web and mobile clients.",
+    "Deployed Redis caching for high-frequency GraphQL queries and session management, alongside MongoDB indexing and aggregation pipeline optimization — achieving 35–40% reduction in API response times across the ecosystem.",
+    "Configured Firebase Cloud Messaging (FCM) alongside a custom Node.js notification service to deliver targeted push notifications to patient and doctor mobile apps for appointment reminders, treatment updates, and alerts.",
+
+    // --- Frontend (2 points) ---
+    "Built a SEO-optimized, mobile-first patient-facing website using Next.js with SSR and SSG strategies, integrating GraphQL APIs via Apollo Client for dynamic content across product catalog, appointment booking, and treatment tracking pages.",
+    "Developed a comprehensive clinic admin dashboard and doctor-facing interface using React.js and Tailwind CSS, enabling real-time workflow management across appointments, patient records, and internal ERP modules.",
+
+    // --- Deployment (1 point) ---
+    "Managed end-to-end deployment of the MySmartAlign ecosystem across web, admin, and API services — configuring environment variables, maintaining CI/CD pipelines, and ensuring zero-downtime production releases for the full dental platform.",
+  ],
+  github: "#",
+  demo: "#",
+  image: require("../../public/projects/mysmartalign.png"),
+  available: true,
+},
 ];
 
 
